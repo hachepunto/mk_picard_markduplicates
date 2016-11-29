@@ -1,6 +1,7 @@
-#!/bin/bash 
-find -L data/ \ 
-	-name '*.bam' \
+#!/bin/bash
+
+find -L data/ \
+	-name "*.bam" \
 | sed \
 	-e 's#data/#results/markDuplicates/#g' \
-	-e 's#\.bam$#.marked_duplicates.bam#g' \
+	-e 's#\.bam$#.marked_duplicates.bam#g'
