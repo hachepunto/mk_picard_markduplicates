@@ -1,4 +1,4 @@
-MARK_DUPLICATES=`{./targets}
+MARK_DUPLICATES=`{./bin/targets}
 
 mark_duplicates:VE:	$MARK_DUPLICATES
 
